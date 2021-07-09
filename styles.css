@@ -332,6 +332,14 @@ section .title::after{
     margin:10px 0 7px 0;
 }
 
+.github_link{
+    color:#fff;
+}
+
+.github_link:hover{
+    color:#000;
+}
+
 /* skills section styling */
 .skills .title::after{
     content:"what i know";
@@ -369,53 +377,14 @@ section .title::after{
     background: none;
 }
 
-.skills .skills-content .right .bars{
-    margin-bottom:15px;
+.unordered_list {
+    text-align:center;
 }
 
-.skills .skills-content .right .info{
-    display:flex;
-    margin-bottom:5px;
-    align-items: center;
-    justify-content: space-between;
+.unordered_list ul li{
+    list-style:none;
 }
 
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.skills .skills-content .right .line{
-    height: 5px;
-    width:100%;
-    background: lightgrey;
-    position:relative;
-}
-
-.skills .skills-content .right .line::before{
-    content: "";
-    position:absolute;
-    height:100%;
-    left:0;
-    top:0;
-    background: crimson;
-}
-
-.skills .skills-content .right .html::before{
-    width:90%;
-}
-
-.skills .skills-content .right .css::before{
-    width:80%;
-}
-
-.skills .skills-content .right .js::before{
-    width:70%;
-}
-
-.skills .skills-content .right .bootstrap::before{
-    width:90%;
-}
 
 /* contact section styling */
 .contact .title::after{
