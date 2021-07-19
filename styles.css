@@ -385,6 +385,11 @@ section .title::after{
     list-style:none;
 }
 
+.column img{
+    width:600px;
+    height:400px;
+}
+
 
 /* contact section styling */
 .contact .title::after{
@@ -466,6 +471,16 @@ footer span:hover{
     .max-width{
         padding:0 100px;
     }
+
+    .column img{
+        width:450px;
+        height:300px;
+    }
+
+    
+    .contact .contact-content .info .head{
+        font-size:12px;
+    }
 }
 
 @media (max-width:1104px){
@@ -495,6 +510,11 @@ footer span:hover{
     .about .about-content .right a{
         display:inline-block;
         text-align:center;
+    }
+
+    .column img{
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -579,6 +599,11 @@ footer span:hover{
         width:100%;
         margin-bottom: 35px;
     }
+
+    .column img{
+        height:350px;
+        width:600px;
+    }
 }
 
 @media (max-width: 690px){
@@ -608,6 +633,11 @@ footer span:hover{
     {
         width:100%;
     }
+
+    .column img{
+        width:450px;
+        height:400px;
+    }
     
 }
 
@@ -633,5 +663,31 @@ footer span:hover{
     .home .home-content .text-3{
         font-size:23px;
     }
+
+    .column img{
+        height: 275px;
+        width: 310px;
+    }
     
+}
+
+@media (max-width:400px){
+
+    .services .title::after{
+        visibility: hidden;
+    }
+
+    .contact .title::after{
+        visibility: hidden;
+    }
+
+    .skills .title::after{
+        visibility:hidden;
+    }
+
+    .column img{
+        height: 200px;
+        width: 285px;
+    }
+
 }
